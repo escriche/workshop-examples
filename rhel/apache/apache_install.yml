@@ -4,12 +4,12 @@
 
   tasks:
   - name: latest Apache version installed
-    yum:
+    package:
       name: httpd
       state: latest
 
   - name: latest firewalld version installed
-    yum:
+    package:
       name: firewalld
       state: latest
 
